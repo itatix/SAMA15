@@ -103,7 +103,7 @@
 	<record id="crm_team_form_salestarget_inherit" model="ir.ui.view">
 		<field name="name">crm.team.kanban</field>
 		<field name="model">crm.team</field>
-		<field name="inherit_id" ref="sales_team.crm_team_salesteams_view_kanban" />
+		<field name="inherit_id" ref="sales_team.crm_team_view_kanban_dashboard" />
 		<field name="arch" type="xml">
 			<xpath expr="//div[hasclass('o_kanban_manage_reports')]" position="inside">
 				<a name="%(action_view_sales_target_report_crm_pivot)d" type="action">
